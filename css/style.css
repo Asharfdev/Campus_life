@@ -1,1 +1,28 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #7493c5;
+}
+h1{
+    margin: 30px;
+    padding-right: 100px;
+}
+
+.topnav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+.navbutton{
+    padding: 12px 24px;
+    font-size: 20px;
+    background-color: #2563eb;
+    color: white;
+    margin: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+
 
