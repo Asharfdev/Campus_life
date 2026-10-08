@@ -1,28 +1,96 @@
+
+/* -------css fro the headder----------- */
 header {
     display: flex;
     align-items: center;
-    background-color: #7493c5;
-}
-h1{
-    margin: 30px;
-    padding-right: 100px;
+    height: 65px; 
+   
 }
 
-.topnav{
+
+h1{
+    margin: 30px;  
+}
+.topnav {
     display: flex;
-    justify-content: center;
+    margin: auto;
     gap: 30px;
   }
+.topnav a{
+    text-decoration: none;
+  }
 
+.navSearch{
+    margin-left: auto;
+    padding: 8px 10px;
+
+}
 .navbutton{
-    padding: 12px 24px;
+    padding: 5px 10px;
     font-size: 20px;
     background-color: #2563eb;
     color: white;
     margin: 30px;
+    margin-bottom: 35px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+ /* ----------bellow is css fro the acceuil---------  */
 
+.accueil{
+    background-color: #08121e;
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
 
+.accueil #desc{
+   flex-direction: column;
+   margin-left: 1rem;
+}
+.accueil h1{
+    font-size: 3.5rem;
+}
+.accueil h2{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+.accueil h3{
+    font-size: 1rem;
+}
+.accueil #flexitemButton1{
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #0751f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accueil #flexitemButton2{
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #0751f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accueil #flexitemsappren{
+    font-size: 15px;
+    margin-top: 15px;
+    color: white;
+}
+.accueil #flexApprAlph{
+     display: flex;
+     margin-top: 25px;
+}
+.accueil #flexitemsapprenAlpha h{
+    background-color: #0751f1;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
